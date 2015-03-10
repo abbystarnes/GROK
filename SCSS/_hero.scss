@@ -1,17 +1,46 @@
+
+.hero {
+  text-align: center;
+}
+
+
+
+/*Nav*/
+nav {
+  text-align: center;
+  background-color: $transBlack;
+  font-family: "Bitter", serif;
+  font-style: italic;
+  padding: .5em;
+  font-size: 1em;
+
+    li {
+    display:inline;
+
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+}
+/*END Nav*/
+
+
+
 /*LOGO REPLACE*/
 .logo {
-  background-size: 108px 261px;
+  background-size: 160px 151px;
   margin: 0 auto;
-  height: 108px;
-  width: 261px;
+  height: 160px;
+  width: 151px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   text-indent: -9999px;
   text-align: center;
   padding: 0px;
-  margin-bottom: 40px;
-  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 /*LOGO REPLACE*/
 

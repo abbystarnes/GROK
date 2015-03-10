@@ -7,20 +7,39 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import url("http://fonts.googleapis.com/css?family=Bitter|Oswald:400,700");
+.hero {
+  text-align: center; }
+
+/*Nav*/
+nav {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: "Bitter", serif;
+  font-style: italic;
+  padding: .5em;
+  font-size: 1em; }
+  nav li {
+    display: inline; }
+  nav a {
+    text-decoration: none;
+    color: #f2f2f2; }
+
+/*END Nav*/
 /*LOGO REPLACE*/
 .logo {
-  background-size: 108px 261px;
+  background-size: 160px 151px;
   margin: 0 auto;
-  height: 108px;
-  width: 261px;
+  height: 160px;
+  width: 151px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   text-indent: -9999px;
   text-align: center;
   padding: 0px;
-  margin-bottom: 40px;
-  margin-top: 20px; }
+  margin-bottom: 0px;
+  margin-top: 0px; }
 
 /*LOGO REPLACE*/
 .logo1 {
@@ -44,8 +63,8 @@
   text-indent: -9999px;
   text-align: center;
   padding: 0px;
-  margin-bottom: 40px;
-  margin-top: 20px; }
+  margin-bottom: 0px;
+  margin-top: 0px; }
 
 /*LOGO REPLACE*/
 .little1 {
@@ -67,6 +86,42 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4; }
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 1em;
+  line-height: 1.5; }
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Bitter", serif;
+  font-size: 3em; }
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Bitter", serif;
+  font-size: 1.5em; }
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+nav {
+  font-family: "Bitter", serif; }
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px; }
+
+a {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+li {
+  list-style-type: none; }
 
 /*
  * Remove text-shadow in selection highlight:

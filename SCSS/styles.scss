@@ -9,8 +9,10 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import "variables";
 @import "hero";
 @import "footer";
+@import url("http://fonts.googleapis.com/css?family=Bitter|Oswald:400,700");
 
 html {
     color: #222;
@@ -18,6 +20,50 @@ html {
     line-height: 1.4;
 }
 
+body {
+    font-family: "Oswald", sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Bitter", serif;
+  font-size: 3em;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Bitter", serif;
+  font-size: 1.5em;
+}
+
+p {
+    margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+nav {
+    font-family: "Bitter", serif;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+li {
+    list-style-type: none;
+
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
