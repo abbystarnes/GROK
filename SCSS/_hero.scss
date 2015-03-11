@@ -1,9 +1,22 @@
 
 .hero {
   text-align: center;
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
 }
 
-
+.register {
+  background-color: $teal;
+  border: none;
+  color: black;
+  width: 60%;
+  border-radius: 4px;
+  
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
 
 /*Nav*/
 nav {
@@ -13,6 +26,7 @@ nav {
   font-style: italic;
   padding: .5em;
   font-size: 1em;
+  margin-bottom: 2em;
 
     li {
     display:inline;
@@ -25,27 +39,48 @@ nav {
 }
 /*END Nav*/
 
-
-
-/*LOGO REPLACE*/
-.logo {
-  background-size: 160px 151px;
+.id {
+  background-color: $transBlack;
+  width: 220px;;
   margin: 0 auto;
-  height: 160px;
-  width: 151px;
+  height: 19em;
+  border-radius: 10px;
+  padding-top: 2em;
+
+}
+
+
+.spacer {
+  height: 2em;
+}
+
+.idinfo li {
+  color: $white;
+
+  &:last-child {
+    margin-bottom: .5em;
+  }
+}
+
+/*LOG` O REPLACE*/
+.logo {
+  background-size: 120px 120px;
+  margin: 0 auto;
+  height: 120px;
+  width: 120px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   text-indent: -9999px;
   text-align: center;
   padding: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 1em;
   margin-top: 0px;
 }
 /*LOGO REPLACE*/
 
 .logo1 {
-   background-image: url("../img/groklogo.png");
+   background-image: url("../img/groklogo.svg");
 }
 
 .logo2 {

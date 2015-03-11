@@ -1,0 +1,75 @@
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.innerWrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.outerWrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+div {
+    border: 1px dotted blue;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: .3em;
+  font-family: "Bitter", serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+    text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Bitter", serif;
+  font-size: 1.5em;
+}
+
+p {
+    margin-top: 0px;
+  margin-bottom: .5em;
+}
+
+nav {
+    font-family: "Bitter", serif;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+.icon{
+    font-size: 1.5em;
+}

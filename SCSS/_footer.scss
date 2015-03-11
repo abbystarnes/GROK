@@ -1,9 +1,9 @@
 /*LOGO REPLACE*/
-.logoLittle {
-  background-size: 108px 261px;
+.sponserLogo {
+  background-size: 200px 300px;
   margin: 0 auto;
-  height: 108px;
-  width: 261px;
+  height: 200px;
+  width: 300px;
   display: inline-block;
   background-repeat: no-repeat;
   background-size: contain;
@@ -16,24 +16,55 @@
 /*LOGO REPLACE*/
 
 
+/*LOGO REPLACE*/
+.logoLittle {
+  background-size: 108px 261px;
+  margin: 0 auto;
+  height: 108px;
+  width: 261px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-indent: -9999px;
+  background-position: center;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+/*LOGO REPLACE*/
+
+.littles {
+  li {
+    display:inline;
+    width: 20%;
+  }
+}
+
+.sponsors li {
+  display: inline;
+}
+
 .little1 {
-  background-image: url("../img/squarespace.png")
+  background-image: url("../img/squarespace.png");
+    height: 108px;
+  width: 261px;
 }
 
 
 .little2 {
-  background-image: url("../img/treeHouse.png")
+  background-image: url("../img/treeHouse.png");
 }
 
 
 .little3 {
-  background-image: url("../img/unvision.png")
+  background-image: url("../img/unvision.png");
 }
 
 .little4 {
-  background-image: url("../img/worthwhile.png")
+  background-image: url("../img/worthwhile.png");
 }
 
 .little5 {
-  background-image: url("../img/mailchimp.png")
+  background-image: url("../img/mailchimp.png");
 }

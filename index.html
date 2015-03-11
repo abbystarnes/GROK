@@ -21,7 +21,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-
+<div class="outerWrapper"> <!-- begin outer wrapper-->
 <!-- HERO -->
 <div class="hero">
     <nav>
@@ -30,20 +30,23 @@
         <li><a href="#">schedule /</a></li>
     </nav>
     
-    <div>
+    <div class="id">
         <!-- REPLACE LOGO -->
         <h1><a class="logo logo1" href="index.html">GROK logo</a></h1>
         <!-- END REPLACE LOGO -->
 
-        <ul>
+        <ul class="idinfo">
             <li>April 29 - May 1, 2015</li>
             <li>Greenville, SC</li>
-            <button>Register</button>
         </ul>
+
+        <button class="register">Register</button>
+
     </div> <!-- close logo/register box -->
+    <div class="spacer"></div> <!-- close spacer -->
 </div>
 <!-- END HERO -->
-
+<div class="innerWrapper"> <!-- begin inner wrapper -->
 <!-- what's Grok? -->
     <h1> / what's GROK? / </h1>
 
@@ -55,7 +58,7 @@
     <p>Instead of listening to speakers, GROK is built around group discussions called 10/20s.</p>
 
     <section class= "part">
-        <div class="circle">
+        <div class="circle circle1">
             
         </div>
         <h2>10/20s</h2>
@@ -64,7 +67,7 @@
     </section>
 
     <section class= "part">
-        <div class="circle">
+        <div class="circle circle2">
             
         </div>
         <h2>Keynote Speakers</h2>
@@ -73,7 +76,7 @@
     </section>
 
     <section class= "part">
-        <div class="circle">
+        <div class="circle circle3">
             
         </div>
         <h2>Fun Stuff</h2>
@@ -88,21 +91,17 @@
     <!-- speaker1 -->
     <article class="speaker">
         <div class= "stats">
-            <div class="circle">
+            <div class="circle circle4">
                 
             </div>
             <ul>
                 <li>Dr. Paul Roof</li>
                 <li>Holy City Beard &amp; Moustache Society</li>
-                <li>
-                    <ul>
-                        <li>
-                            <i class="fa fa-facebook"></i>
-                        </li>
-                        <li>
-                            <i class="fa fa-twitter"></i>
-                        </li>
-                    </ul>
+                <li class="icon">
+                   
+                    <i class="fa fa-facebook"></i>
+                     <i class="fa fa-twitter"></i>
+            
                 </li>
             </ul>
 
@@ -121,21 +120,17 @@
     <!-- speaker2 -->
         <article class="speaker">
         <div class= "stats">
-            <div class="circle">
+            <div class="circle circle5">
                 
             </div>
             <ul>
                 <li>Aaron Draplin</li>
                 <li>Draplin Design</li>
-                <li>
-                    <ul>
-                         <li>
-                            <i class="fa fa-facebook"></i>
-                        </li>
-                        <li>
-                            <i class="fa fa-twitter"></i>
-                        </li>
-                    </ul>
+              <li class="icon">
+                   
+                    <i class="fa fa-facebook"></i>
+                     <i class="fa fa-twitter"></i>
+            
                 </li>
             </ul>
 
@@ -148,21 +143,17 @@
     <!-- speaker3 -->
         <article class="speaker">
         <div class= "stats">
-            <div class="circle">
+            <div class="circle circle6">
                 
             </div>
             <ul>
                 <li>Carl Smith</li>
                 <li>nGen Works</li>
-                <li>
-                    <ul>
-                      <li>
-                            <i class="fa fa-facebook"></i>
-                        </li>
-                        <li>
-                            <i class="fa fa-twitter"></i>
-                        </li>
-                    </ul>
+                <li class="icon">
+                   
+                    <i class="fa fa-facebook"></i>
+                     <i class="fa fa-twitter"></i>
+            
                 </li>
             </ul>
 
@@ -175,21 +166,17 @@
     <!-- speaker4 -->
         <article class="speaker">
         <div class= "stats">
-            <div class="circle">
+            <div class="circle circle7">
                 
             </div>
             <ul>
                 <li>Moldover</li>
                 <li>Musician</li>
-                <li>
-                    <ul>
-                        <li>
-                            
-                        </li>
-                        <li>
-                            
-                        </li>
-                    </ul>
+               <li class="icon">
+                   
+                    <i class="fa fa-facebook"></i>
+                     <i class="fa fa-twitter"></i>
+            
                 </li>
             </ul>
 
@@ -372,6 +359,7 @@
 </table>
 <!-- END schedule -->
 
+</div> <!--end innerwrapper -->
 <footer>
 <!-- REGISTER -->
     <div>
@@ -379,24 +367,25 @@
             <li>Register Now!</li>
             <li>Reserve your space at GROK for $250</li>
         </ul>
-        <button>Register</button> 
+        <button class="register">Register</button> 
     </div>
 <!-- END REGISTER -->
 <!-- HOSTS -->
     <div>
         <p>A presentation of </p>
         <!-- REPLACE LOGO -->
-        <h1><a class="logo logo2" href="index.html">Unmatched Style</a></h1>
-        <!-- END REPLACE LOGO -->
+        <ul class="sponsors">
+            <li><a class="sponserLogo logo2" href="index.html">Unmatched Style</a></li>
+            <!-- END REPLACE LOGO -->
 
-        <!-- REPLACE LOGO -->
-        <h1><a class="logo logo3" href="index.html">The Iron Yard</a></h1>
-        <!-- END REPLACE LOGO -->
-
+            <!-- REPLACE LOGO -->
+            <li><a class="sponserLogo logo3" href="index.html">The Iron Yard</a></li>
+            <!-- END REPLACE LOGO -->
+        </ul>
     </div>
 <!-- END HOSTS -->
 <!-- SPONSORS -->
-    <ul>
+    <ul class="littles">
         <li><a class="logoLittle little1" href="#"></a></li>
         <li><a class="logoLittle little2" href="#"></a></li>
         <li><a class="logoLittle little3" href="#"></a></li>
@@ -411,8 +400,8 @@
         </li>
         <li>
             <ul>
-                <li><i class="fa fa-facebook"></i></li>
-                <li><i class="fa fa-twitter"></i></li>
+                <li class="icon"><i class="fa fa-facebook"></i></li>
+                <li class="icon"><i class="fa fa-twitter"></i></li>
             </ul>
         </li>
         <li>
@@ -427,6 +416,7 @@
 <!-- END footer -->
 </footer>
 
+</div><!-- end outerwrapper -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
