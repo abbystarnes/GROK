@@ -1,10 +1,16 @@
 .locationMill {
 	margin-bottom: 1em;
+
+	
 }
 
 
 .locationBank {
 	margin-bottom: 1em;
+
+	li:first-child {
+		font-weight: 300;
+	}
 }
 
 td {
@@ -16,6 +22,22 @@ td {
 		margin-bottom: .5em;
 	}
 
+	li {
+		font-weight: thin;
+	}
+
+	li:first-child {
+		
+	}
+
+	li:nth-child(2) {
+		font-weight: 300;
+	} 
+
+	li:last-child {
+		font-weight: 300;
+	} 
+
 	h2 {
 		text-align: left;
 	}
@@ -23,10 +45,69 @@ td {
 	h3 {
 		margin: 0px;
 		font-size: 1em;
-		font-weight: bold;
+		font-size: 1em;
+		// font-style: italic;
 	}
 
 }
+
+tr {
+	&:first-child {
+
+		background-color: $teal;
+		border-bottom: 1px solid #222;
+
+	}
+
+	&:nth-child(6) {
+		background-color: #aaa;
+	}
+
+}
+
+.chartLocation {
+	background-color: #aaa;
+}
+
+td {
+	&:first-child {
+		border-right: 1px solid #222;
+
+		background-color: #aaa;
+	}
+	&:last-child {
+		border-left: 1px solid #222;
+		background-color: #aaa;
+	}
+
+}
+
+
+
+#day1 {
+  background-color: $darkteal;
+}
+
+#day3 {
+  background-color: $darkteal;
+}
+
+#location1 {
+  background-color: #777;
+}
+
+#location3 {
+  background-color: #777;
+}
+
+#lunch2 {
+  background-color: #777;
+}
+
+#lunch3 {
+  background-color: #777;
+}
+
 
 table {
 	background-color: #ddd;
