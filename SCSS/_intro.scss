@@ -31,4 +31,22 @@
 
 .part {
 	margin-bottom: 2em;
+
+
+	@include breakpoint ($med) {
+	float: left;
+	width: 50%;
+			
 }
+}
+
+
+
+
+
+
+
+
+
+
+

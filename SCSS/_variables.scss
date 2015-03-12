@@ -2,3 +2,14 @@ $white: #f2f2f2;
 $transBlack: rgba(0,0,0,.7);
 $teal: #ec008c;
 $darkteal: #bb006f;
+
+
+
+$med:660px;
+$large: 980px;
+
+@mixin breakpoint($point) {
+	@media (min-width: $point) {
+		@content;
+	}
+}

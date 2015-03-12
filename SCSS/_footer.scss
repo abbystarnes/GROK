@@ -2,9 +2,18 @@
 .registration {
   text-align: center;
   margin-bottom: 1em;
+  background-color: black;
+  color: $white;
+  padding: 1em 0em 1em 0em;
+
+  li:nth-child(2) {
+    margin-bottom: .5em;
+  }
 }
 
-
+footer {
+  background-color: white;
+}
 
 /*LOGO REPLACE*/
 .sponserLogo {
@@ -75,6 +84,7 @@
   width: 90%;
   margin: 0 auto;
   text-align: center;
+  padding-top: 1em;
 }
 
 .sponsors {
@@ -89,9 +99,9 @@ text-align: center;
 
 .sponserBox {
   text-align: center;
-
+  border-bottom: .3em solid black;
   p {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
 }
 
@@ -128,5 +138,26 @@ text-align: center;
   width: 150px;
 }
 
+.footerNav {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  li {
+    display: inline-block;
+  }
+}
 
+.footerLogo {
+  display: block;
+}
+
+.logo1b {
+   background-image: url("../img/groklogo2.svg");
+   width: 100%;
+}
+
+.trueFooter {
+  background-color: black;
+  padding: 1em 0em 2em 0em;
+}
 
