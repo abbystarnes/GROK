@@ -46,10 +46,10 @@ footer {
 
 /*LOGO REPLACE*/
 .logoLittle {
-  background-size: 108px 261px;
+  background-size: 81px 196px;
   margin: 0 auto;
-  height: 108px;
-  width: 261px;
+  height: 81px;
+  width: 196px;
   display: inline-block;
   background-repeat: no-repeat;
   background-size: contain;
@@ -59,6 +59,18 @@ footer {
   padding: 0px;
   margin-bottom: 0px;
   margin-top: 0px;
+
+
+  @include breakpoint ($med) {
+  
+  width: 32%;
+  margin-right: 1.5%;
+  &:last-child{
+    margin-right: 0%;
+  
+
+  }
+}
 }
 /*LOGO REPLACE*/
 
@@ -67,12 +79,12 @@ footer {
   text-align: center;
 
   li {
-    // display:inline-block;
-    float:left;
-    width: 50%;
+    display:inline-block;
+    // float:left;
+    // width: 50%;
 
     &:last-child {
-      width: 100%;
+      // width: 100%;
     }
 
   }
@@ -85,6 +97,11 @@ footer {
   margin: 0 auto;
   text-align: center;
   padding-top: 1em;
+  padding-bottom: 1em;
+
+  p {
+    margin-bottom: 1em;
+  }
 }
 
 .sponsors {

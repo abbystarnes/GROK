@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html, html a {
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
@@ -5,7 +9,7 @@ html, html a {
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 1.25em;
     line-height: 1.4;
 }
 
@@ -28,6 +32,7 @@ body {
     font-size: 1em;
     line-height: 1.5;
     background-color: #f5f5f5;
+    // max-width: 900px;
 }
 
 h1 {
@@ -76,8 +81,10 @@ li {
 
 .icon{
     font-size: 2em;
+
     .fa-facebook {
       color: #3b5998;
+      margin-right: 10px;
     }
     
      &:last-child {
