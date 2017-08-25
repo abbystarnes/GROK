@@ -1,4 +1,4 @@
-![GROK Conference. logo](img/groklogo.png)
+![GROK Conference. logo](img/groklogoSM.png)
 
 # GROK Conference
 > redesign and responsive build of a conference website
